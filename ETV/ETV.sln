@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETV.CSharp.Plugins", "ETV.CSharp.Plugins.csproj", "{1DAC8FD6-4220-3FFD-73D3-954E9D632B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETV.CSharp", "ETV.CSharp.csproj", "{2C551C2E-A253-60FC-D07B-9A4117173AEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETV.CSharp.Editor", "ETV.CSharp.Editor.csproj", "{9A051D46-2F21-125F-CEF6-E067CE6E1811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DAC8FD6-4220-3FFD-73D3-954E9D632B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAC8FD6-4220-3FFD-73D3-954E9D632B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAC8FD6-4220-3FFD-73D3-954E9D632B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAC8FD6-4220-3FFD-73D3-954E9D632B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C551C2E-A253-60FC-D07B-9A4117173AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C551C2E-A253-60FC-D07B-9A4117173AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C551C2E-A253-60FC-D07B-9A4117173AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C551C2E-A253-60FC-D07B-9A4117173AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A051D46-2F21-125F-CEF6-E067CE6E1811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A051D46-2F21-125F-CEF6-E067CE6E1811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A051D46-2F21-125F-CEF6-E067CE6E1811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A051D46-2F21-125F-CEF6-E067CE6E1811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
