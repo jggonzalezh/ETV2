@@ -75,13 +75,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AdminEnfermedad.cs" />
-    <Compile Include="Assets\Scripts\AdminIntro.cs" />
+    <Compile Include="Assets\Scripts\AdminHuevos.cs" />
     <Compile Include="Assets\Scripts\AdminPuntos.cs" />
     <Compile Include="Assets\Scripts\AdminSeleccion.cs" />
     <Compile Include="Assets\Scripts\AdminWater.cs" />
     <Compile Include="Assets\Scripts\AdminbtnColisiones.cs" />
-    <Compile Include="Assets\Scripts\AdministradorUI.cs" />
+    <Compile Include="Assets\Scripts\AdminbtnColisionesDos.cs" />
     <Compile Include="Assets\Scripts\ScoreTracker.cs" />
     <Compile Include="Assets\Scripts\SubirEscalera.cs" />
   </ItemGroup>
