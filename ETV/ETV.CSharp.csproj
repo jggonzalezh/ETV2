@@ -76,8 +76,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AdminHuevos.cs" />
+    <Compile Include="Assets\Scripts\AdminInicio.cs" />
     <Compile Include="Assets\Scripts\AdminPuntos.cs" />
-    <Compile Include="Assets\Scripts\AdminSeleccion.cs" />
     <Compile Include="Assets\Scripts\AdminWater.cs" />
     <Compile Include="Assets\Scripts\AdminbtnColisiones.cs" />
     <Compile Include="Assets\Scripts\AdminbtnColisionesDos.cs" />
