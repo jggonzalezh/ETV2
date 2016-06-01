@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Escenas/dos.unity
+- path: Assets/Escenas/tres.unity
   isLoaded: 1
   isActive: 1

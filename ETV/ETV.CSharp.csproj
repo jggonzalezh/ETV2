@@ -75,14 +75,31 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Scripts\AdminColisionesTres.cs" />
+    <Compile Include="Assets\Scripts\AdminEscenas.cs" />
     <Compile Include="Assets\Scripts\AdminHuevos.cs" />
     <Compile Include="Assets\Scripts\AdminInicio.cs" />
+    <Compile Include="Assets\Scripts\AdminPacientes.cs" />
     <Compile Include="Assets\Scripts\AdminPuntos.cs" />
     <Compile Include="Assets\Scripts\AdminWater.cs" />
     <Compile Include="Assets\Scripts\AdminbtnColisiones.cs" />
     <Compile Include="Assets\Scripts\AdminbtnColisionesDos.cs" />
+    <Compile Include="Assets\Scripts\ApplicationManager.cs" />
+    <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\CharacterControl.cs" />
+    <Compile Include="Assets\Scripts\DragMe.cs" />
+    <Compile Include="Assets\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\Scripts\ResizePanel.cs" />
     <Compile Include="Assets\Scripts\ScoreTracker.cs" />
+    <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Scripts\SubirEscalera.cs" />
+    <Compile Include="Assets\Scripts\TiltWindow.cs" />
+    <Compile Include="Assets\Scripts\adminMenu.cs" />
+    <Compile Include="Assets\Scripts\play.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />

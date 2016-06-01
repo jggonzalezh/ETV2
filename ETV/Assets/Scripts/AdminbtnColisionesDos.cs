@@ -57,10 +57,13 @@ public class AdminbtnColisionesDos : MonoBehaviour {
                 AdminHuevos.UpdateObj(6, btn);
                 break;
 
-            case "theScaletta":
-                subirEscalera(true);
+            case "laPareduno":
+                subirEscalera(1);
                 break;
 
+            case "laParedDos":
+                subirEscalera(0);
+                break;
 
 
         }
@@ -79,13 +82,19 @@ public class AdminbtnColisionesDos : MonoBehaviour {
     }
 
 
-    public void subirEscalera(bool esconder)
+    public void subirEscalera(int n)
     {
 
         
         anim = GameObject.FindGameObjectWithTag("theFPC").GetComponent<Animation>();
-        anim.Play();
-        
+
+        if (n == 0)
+        {
+            anim.Play("SubirEscaleras");
+        }
+        else {
+            anim.Play("SubirParedUno");
+        }
 
     }
 

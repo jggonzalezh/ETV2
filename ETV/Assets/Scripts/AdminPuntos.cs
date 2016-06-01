@@ -11,7 +11,6 @@ public class AdminPuntos : MonoBehaviour {
     {
         Debug.Log("Desactivo");
         
-
         btn.interactable = false;
         btn.transform.localScale = new Vector3(0, 0, 0);
 

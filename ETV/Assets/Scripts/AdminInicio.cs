@@ -4,19 +4,23 @@ using UnityEngine.UI;
 
 public class AdminInicio : MonoBehaviour {
 
-    public GameObject fpc;
+    //public GameObject fpc;
     public GameObject cnv;
+    public GameObject dtc;
+
+
 
     // Use this for initialization
     void Start () {
-        fpc = GameObject.FindGameObjectWithTag("theFPC");
+        //fpc = GameObject.FindGameObjectWithTag("theFPC");
         cnv = GameObject.FindGameObjectWithTag("theCanvas");
-       // fpc.transform.localScale = new Vector3(0, 0, 0);
+        dtc= GameObject.FindGameObjectWithTag("dtc");
+        dtc.GetComponent<Canvas>().enabled = false;
 
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 	
 	}
 
@@ -24,7 +28,9 @@ public class AdminInicio : MonoBehaviour {
 
     public void iniciarNivel() {
 
-        fpc.transform.localScale = new Vector3(1, 1, 1);
+        dtc.GetComponent<Canvas>().enabled = true;
+        ScoreTracker.ptos = 0;
+        ScoreTracker.time = 240;
         Destroy(cnv);
     }
 }

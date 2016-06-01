@@ -10,6 +10,8 @@ public class AdminHuevos : MonoBehaviour {
     public GameObject trash;
     public GameObject recycling;
     public GameObject fountain;
+    public GameObject boy;
+    public GameObject remmy;
 
     public GameObject bucketWater;
     public GameObject contenedorWater;
@@ -21,6 +23,9 @@ public class AdminHuevos : MonoBehaviour {
 
 
     static int obj = 0;
+    public Animation anim;
+
+
 
     // Use this for initialization
     void Start()
@@ -31,7 +36,9 @@ public class AdminHuevos : MonoBehaviour {
         trashWater = GameObject.FindGameObjectWithTag("trwater");
         recyclingWater = GameObject.FindGameObjectWithTag("rckwater");
         ftgWater4 = GameObject.FindGameObjectWithTag("ftwater4");
+        
 
+   
 
         bucketWater.SetActive(false);
         contenedorWater.SetActive(false);
@@ -63,12 +70,9 @@ public class AdminHuevos : MonoBehaviour {
                 ScoreTracker.UpdateScore(1);
                 ScoreTracker.UpdateMsg("sumo 1");
                 contenedor = GameObject.FindGameObjectWithTag("theContenedor");
-                contenedor.GetComponent<BoxCollider>().enabled = false;
+                contenedor.GetComponent<SphereCollider>().enabled = false;
                 btndos.transform.localScale = new Vector3(0, 0, 0);
                 obj = 0;
-
-
-
 
                 break;
             case 2:
@@ -132,6 +136,7 @@ public class AdminHuevos : MonoBehaviour {
 
                 break;
 
+      
 
         }
 
@@ -153,4 +158,10 @@ public class AdminHuevos : MonoBehaviour {
     {
         Debug.Log("Up");
     }
+
+
+
+ 
+
+
 }
